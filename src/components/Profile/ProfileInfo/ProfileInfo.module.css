@@ -1,0 +1,19 @@
+.profile {
+    width: 600px;
+    display: grid;
+    grid-template-columns: 3fr 9fr;
+    margin-bottom: 15px;
+}
+
+.profile img {
+    width: 101px;
+    height: 101px;
+}
+
+.profileInfo {
+    margin-top: 10px;
+}
+
+.contacts {
+    margin-left: 20px;
+}

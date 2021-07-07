@@ -1,0 +1,76 @@
+.userItem {
+  display: grid;
+  width: 450px;
+  height: 100px;
+  grid-template-areas: "p i b";
+  grid-template-columns: 120px 8fr 3fr;
+  background-color: red;
+  margin-bottom: 30px;
+}
+.userItem img {
+  width: 100px;
+  height: 100px;
+}
+
+.userPhoto {
+  grid-area: p;
+}
+
+.userInfo {
+  grid-area: i;
+  padding-top: 10px;
+}
+
+.usesrBtn {
+  grid-area: b;
+  display: flex;
+  align-items: center;
+}
+
+.usesrBtn button {
+  width: 70px;
+  height: 30px;
+  background-color: blue;
+  border: none;
+}
+.usesrBtn button:hover {
+  cursor: pointer;
+  background-color: rgb(6, 6, 209);
+}
+
+.btnBlock {
+  margin-bottom: 25px;
+}
+
+.btnBlock.helper {
+  margin-left: 67px;
+}
+
+.btnPages {
+  width: 30px;
+  height: 30px;
+  margin-right: 7px;
+  background-color: blue;
+  border: none;
+}
+.btnPages:hover {
+  background-color: red;
+  cursor: pointer;
+}
+.btnPages.active {
+  background-color: red;
+}
+
+.btnPaginator {
+  width: 60px;
+  height: 30px;
+  background-color: red;
+  border: none;
+  cursor: pointer;
+}
+.btnPaginator.left {
+  margin-right: 7px;
+}
+.btnPaginator:hover {
+  background-color: rgb(233, 5, 5);
+}

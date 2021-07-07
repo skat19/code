@@ -1,0 +1,8 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+}
+
+.inputMessage {
+  margin: 20px 0 5px;
+}

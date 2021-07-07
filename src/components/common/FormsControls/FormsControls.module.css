@@ -1,0 +1,4 @@
+.form .border textarea,
+.form .border input {
+  border: 2px red solid;
+}
